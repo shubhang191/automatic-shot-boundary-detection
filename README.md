@@ -161,6 +161,8 @@ The existing suite exercises loaders, frozen probabilities/decoders, native brid
 
 Runtime caches, models downloaded during setup, local reports and environments are ignored by Git. Gradio expires uploads separately. The pipeline cache defaults to .cache (four inputs / 4 GiB / 24h); `SBD_CACHE` may point to another writable location. Clearing your own cache recomputes predictions. See [ARCHITECTURE.md](docs/ARCHITECTURE.md) for identities and exports. Original backend and fitted-model bytes are preserved; .gitattributes prevents Windows newline conversion from breaking source integrity checks.
 
+Packaging test results and their exact scope are recorded in [VALIDATION.md](docs/VALIDATION.md).
+
 ## Repository map
 
 ```text

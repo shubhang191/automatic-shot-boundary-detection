@@ -13,3 +13,7 @@ Original faculty source preservation: **431 distributable files, zero added/miss
 The only application warning was the pre-existing upstream AutoShot/PyTorch indexing deprecation. One external export-audit helper initially expected PNG thumbnails, then was corrected to the actual JPEG format; no application or existing test was changed to force success.
 
 See README for supported configurations, MODELS.md for legal acquisition and exact identities, and RESEARCH_RESULTS.md for the separate historical figures. Full machine-local logs are intentionally not published because they contain development paths.
+
+## Published-repository check
+
+After publication, a new anonymous Git clone from the public GitHub URL independently obtained the official Omni models and FFmpeg again, imported the explicit user-supplied AutoShot file, passed environment/model verification and Gradio startup, and ran **all eleven configurations** successfully. Scientific outputs match the pre-publication validated staging run, and all result ZIPs pass CRC with matching JSON shots. This final smoke reused the separately fresh-installed clean-clone dependency environment; it does not claim a third fresh package installation. Public accessibility, rendered README, both actual screenshot images and the published file tree were checked.
