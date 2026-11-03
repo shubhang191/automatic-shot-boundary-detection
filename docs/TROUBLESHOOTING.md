@@ -1,3 +1,5 @@
+> Windows portability repair: see [PORTABLE_WINDOWS_README.md](../PORTABLE_WINDOWS_README.md). Never distribute a prebuilt .venv; setup now validates and repairs environments safely.
+
 # Troubleshooting
 
 - Use Windows x64 and Python 3.13 (tested 3.13.5). CPU pins are intentional; CUDA is not certified.
