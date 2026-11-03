@@ -26,9 +26,11 @@ The preview is normalized video, **not an annotated-video renderer**. This appli
 
 ## Screenshots and example
 
-![Detector/verifier controls and actual licensed-sample results](docs/images/application.png)
+![Detector/verifier controls and actual licensed-sample results](docs/images/application.jpg)
 
 The screenshot is captured from the running application using the included **Sintel** engineering montage. It demonstrates the UI and exports, not independent benchmark accuracy. The six-second, 150-frame example is derived from the Blender Foundation trailer under CC BY 3.0; attribution and exact edits are in [examples/README.md](examples/README.md). No SHOT200, BBC, advertisement or other unlicensed evaluation footage is included.
+
+![Actual candidate KEEP/DROP diagnostics](docs/images/verification.jpg)
 
 ## Requirements
 
