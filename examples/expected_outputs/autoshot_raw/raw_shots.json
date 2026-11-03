@@ -1,0 +1,52 @@
+[
+  {
+    "shot": 1,
+    "start_frame": 0,
+    "end_frame": 47,
+    "start_s": 0.0,
+    "end_inclusive_s": 1.88,
+    "end_exclusive_s": 1.92,
+    "duration_s": 1.92,
+    "boundary_type": "start"
+  },
+  {
+    "shot": 2,
+    "start_frame": 48,
+    "end_frame": 49,
+    "start_s": 1.92,
+    "end_inclusive_s": 1.96,
+    "end_exclusive_s": 2.0,
+    "duration_s": 0.08,
+    "boundary_type": "unknown"
+  },
+  {
+    "shot": 3,
+    "start_frame": 50,
+    "end_frame": 69,
+    "start_s": 2.0,
+    "end_inclusive_s": 2.76,
+    "end_exclusive_s": 2.8,
+    "duration_s": 0.8,
+    "boundary_type": "unknown"
+  },
+  {
+    "shot": 4,
+    "start_frame": 70,
+    "end_frame": 99,
+    "start_s": 2.8,
+    "end_inclusive_s": 3.96,
+    "end_exclusive_s": 4.0,
+    "duration_s": 1.2,
+    "boundary_type": "unknown"
+  },
+  {
+    "shot": 5,
+    "start_frame": 100,
+    "end_frame": 149,
+    "start_s": 4.0,
+    "end_inclusive_s": 5.96,
+    "end_exclusive_s": 6.0,
+    "duration_s": 2.0,
+    "boundary_type": "unknown"
+  }
+]

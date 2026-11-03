@@ -1,0 +1,10 @@
+test,detector,alone_TP,alone_FP,alone_FN,alone_P,alone_R,alone_F1,verified_TP,verified_FP,verified_FN,verified_P,verified_R,verified_F1,F1_gain,range95,verdict
+local (30 numbers),AutoShot,2098,377,418,0.8477,0.8339,0.8407,2046,281,470,0.8792,0.8132,0.8449,0.0042,-0.0023 to +0.0098,cannot be told apart
+local (30 numbers),OmniShotCut,1960,592,556,0.768,0.779,0.7735,1906,315,610,0.8582,0.7576,0.8047,0.0312,+0.0237 to +0.0388,BETTER
+local (30 numbers),Classic,1780,400,736,0.8165,0.7075,0.7581,1734,222,782,0.8865,0.6892,0.7755,0.0174,+0.0063 to +0.0288,BETTER
+full (38 numbers),AutoShot,2098,377,418,0.8477,0.8339,0.8407,2042,284,474,0.8779,0.8116,0.8435,0.0027,-0.0042 to +0.0089,cannot be told apart
+full (38 numbers),OmniShotCut,1960,592,556,0.768,0.779,0.7735,1914,310,602,0.8606,0.7607,0.8076,0.0341,+0.0268 to +0.0411,BETTER
+full (38 numbers),Classic,1780,400,736,0.8165,0.7075,0.7581,1751,221,765,0.8879,0.6959,0.7803,0.0222,+0.0108 to +0.0337,BETTER
+tiny (4 numbers),AutoShot,2098,377,418,0.8477,0.8339,0.8407,2066,325,450,0.8641,0.8211,0.8421,0.0013,-0.0032 to +0.0057,cannot be told apart
+tiny (4 numbers),OmniShotCut,1960,592,556,0.768,0.779,0.7735,1927,406,589,0.826,0.7659,0.7948,0.0213,+0.0149 to +0.0278,BETTER
+tiny (4 numbers),Classic,1780,400,736,0.8165,0.7075,0.7581,1749,304,767,0.8519,0.6952,0.7656,0.0075,+0.0009 to +0.0150,BETTER

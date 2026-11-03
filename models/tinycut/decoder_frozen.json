@@ -1,0 +1,15 @@
+{
+  "decoder": {
+    "close": 2,
+    "max_hard": 2,
+    "mode": "runs",
+    "thr": 0.9
+  },
+  "inner_stop_F1_selected": 0.8991596638655462,
+  "inner_stop_TP_FP_FN": [
+    107,
+    15,
+    9
+  ],
+  "training_source": "10 inner STOP video labels only; validation videos never used"
+}

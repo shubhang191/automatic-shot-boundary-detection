@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=78"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automatic-shot-boundary-detection"
+version = "1.1.0+legacy"
+description = "Windows shot detection with preserved SBDV2 and authentic historical Python verifiers"
+requires-python = ">=3.13,<3.14"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

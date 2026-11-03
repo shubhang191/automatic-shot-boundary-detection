@@ -1,0 +1,35 @@
+{
+  "tinycut": {
+    "path": "models/tinycut/clean_tinycut_s_member.pkl",
+    "bytes": 77337,
+    "sha256": "b3f52ff114a832094bd20005b408c60f4dc3ea2b1c1a7a129f390e6ade3fcdd0",
+    "source": "Clean Notebook39, unchanged handoff checkpoint"
+  },
+  "decoder": {
+    "path": "models/tinycut/decoder_frozen.json",
+    "bytes": 281,
+    "sha256": "1151c8bdcf0e5eef3b64c4d3ff90b601cda35117787d89d05fde7e711bac919e"
+  },
+  "autoshot": {
+    "path": "models/autoshot/ckpt_0_200_0.pth",
+    "bytes": 57243097,
+    "sha256": "3e85290546ce6d32f4a3581ec2cae87aedd2402246a0d46b4d361a330b4b1fa6",
+    "source": "User-supplied AutoShotMain checkpoint; original pretrained AutoShot model",
+    "upstream": "https://github.com/wentaozhu/AutoShot",
+    "license_note": "MIT repository source notice preserved; supplied faculty artifact under existing terms; not included in source ZIP or relicensed"
+  },
+  "omnishotcut": {
+    "path": "models/omnishotcut/OmniShotCut_ckpt.pth",
+    "bytes": 164149963,
+    "sha256": "5948ea78e00626c0e6c5e742e64873ef872cf4a5071d2a0841aed51c3e686cfa",
+    "source": "User-supplied OmniShotCutMain checkpoint; strict resnet18 match, not labelled online v1.5",
+    "upstream": "https://github.com/UVA-Computer-Vision-Lab/OmniShotCut",
+    "license_note": "MIT explicitly includes model weights; notice preserved"
+  },
+  "verifier": {
+    "path": "third_party/sbdv2/models/generic_local.sbdm",
+    "bytes": 46359,
+    "sha256": "2d939badcbd1f8b1d85659b4187a746ce73211a4018b8721ee28689b7f2ce89d",
+    "source": "Original V40 generic_local, no E0/E1 replacement"
+  }
+}

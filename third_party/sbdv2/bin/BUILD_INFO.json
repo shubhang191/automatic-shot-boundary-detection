@@ -1,0 +1,7 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "architecture": "AMD64",
+  "compiler": "clang version 23.1.4 (https://github.com/llvm/llvm-project.git 7a941dfb2877a0b8cf30323fefa85ad019e0b0f5)\nTarget: x86_64-w64-windows-gnu\nThread model: posix",
+  "core": "Original V40; UTF-8 model path patch only",
+  "windows_cli": "raw RGB RAM and stream transport"
+}

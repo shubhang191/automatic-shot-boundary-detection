@@ -1,0 +1,7 @@
+test,detector,alone_TP,alone_FP,alone_FN,alone_P,alone_R,alone_F1,verified_TP,verified_FP,verified_FN,verified_P,verified_R,verified_F1,F1_gain,range95,verdict
+train without AutoShot [local numbers],AutoShot,2098,377,418,0.8477,0.8339,0.8407,2047,278,469,0.8804,0.8136,0.8457,0.005,-0.0019 to +0.0109,cannot be told apart
+train without OmniShotCut [local numbers],OmniShotCut,1960,592,556,0.768,0.779,0.7735,1931,433,585,0.8168,0.7675,0.7914,0.0179,+0.0124 to +0.0236,BETTER
+train without Classic [local numbers],Classic,1780,400,736,0.8165,0.7075,0.7581,1742,260,774,0.8701,0.6924,0.7711,0.013,+0.0029 to +0.0235,BETTER
+train without AutoShot [full numbers],AutoShot,2098,377,418,0.8477,0.8339,0.8407,2037,268,479,0.8837,0.8096,0.8451,0.0043,-0.0024 to +0.0105,cannot be told apart
+train without OmniShotCut [full numbers],OmniShotCut,1960,592,556,0.768,0.779,0.7735,1928,409,588,0.825,0.7663,0.7946,0.0211,+0.0155 to +0.0270,BETTER
+train without Classic [full numbers],Classic,1780,400,736,0.8165,0.7075,0.7581,1770,311,746,0.8506,0.7035,0.7701,0.012,+0.0057 to +0.0180,BETTER

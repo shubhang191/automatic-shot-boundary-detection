@@ -1,0 +1,5 @@
+# Scope and limitations
+
+Read RESEARCH_RESULTS.md before interpreting scores. SHOT200 reuse, apparent/in-sample Python evaluation, incomplete source-disjoint validation, historical Preview lineage uncertainty, duplicates and archived frame-count discrepancies remain limitations. Public-release testing is software validation on a licensed sample, not a new benchmark.
+
+C++ SBDV2 filters existing candidates; it cannot rescue absent proposals. Python rescue/snap can also make mistakes. The UI label Higher Accuracy, Slower describes historical apparent results, not universal accuracy. Raw/native ranges and half-open/inclusive conventions differ; Python gradual gaps are deliberately retained. Model/input and CPU limits are enforced; this is an offline array-processing application, not certified real-time streaming. No verified GPU, Linux, macOS, power or embedded-device result is claimed. Only the pinned Windows CPU environment is tested. No annotated-video renderer exists; the preview is normalized video.

@@ -1,0 +1,3 @@
+name,detector_ms_per_frame,verifier_ms_per_frame,fps_detector,fps_with_verifier,overhead_percent,seconds_per_hour_of_video,real_time_at,energy_j
+"AutoShot (T4 GPU, forward pass only) + verifier (frames already decoded)",1.5932,0.0017,627.7,627.0,0.11,143.5,25 fps: yes,
+"AutoShot (T4 GPU, forward pass only) + verifier run on a video file (incl. ffmpeg decode of a tiny 48x27 test video; real video decodes slower)",1.5932,0.22,627.7,551.5,13.81,163.2,25 fps: yes,

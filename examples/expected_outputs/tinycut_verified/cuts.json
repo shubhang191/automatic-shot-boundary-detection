@@ -1,0 +1,26 @@
+[
+  {
+    "a": 49,
+    "b": 50,
+    "kind": "hard_candidate",
+    "score": 0.9915164709091187,
+    "p_keep": 0.6406822547886988,
+    "status": "KEEP"
+  },
+  {
+    "a": 69,
+    "b": 70,
+    "kind": "hard_candidate",
+    "score": 0.9954298734664917,
+    "p_keep": 0.7697165110417385,
+    "status": "KEEP"
+  },
+  {
+    "a": 99,
+    "b": 100,
+    "kind": "hard_candidate",
+    "score": 0.9980277419090271,
+    "p_keep": 0.9719436202417091,
+    "status": "KEEP"
+  }
+]

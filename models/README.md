@@ -1,0 +1,1 @@
+Read ../docs/MODELS.md. Small project fitted artifacts are included unchanged. Pretrained .pth files are excluded; run ../scripts/prepare_models.py with the authorized AutoShot input. Every model is SHA-256 checked before loading.

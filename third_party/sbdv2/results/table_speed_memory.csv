@@ -1,0 +1,5 @@
+video,mode,frames,candidates,total_ms,verify_ms,ms_per_frame,peak_rss_mb,decoder_peak_rss_mb,peak_total_mb_worst_case
+real SHOT video (mp4),stream,1229,16,817.59,3.99,0.67,4.25,62.81,67.06
+real SHOT video (mp4),ram,1229,16,922.88,2.53,0.75,8.38,62.86,71.23
+30-minute synthetic video,stream,45000,1175,9955.42,239.86,0.22,4.75,55.29,60.04
+30-minute synthetic video,ram,45000,1175,10166.76,155.93,0.23,171.62,55.64,227.26

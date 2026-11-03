@@ -1,0 +1,34 @@
+[
+  {
+    "a": 47,
+    "b": 48,
+    "kind": "unknown",
+    "score": null,
+    "p_keep": 0.6078860072040769,
+    "status": "KEEP"
+  },
+  {
+    "a": 49,
+    "b": 50,
+    "kind": "unknown",
+    "score": null,
+    "p_keep": 0.7774782386961795,
+    "status": "KEEP"
+  },
+  {
+    "a": 69,
+    "b": 70,
+    "kind": "unknown",
+    "score": null,
+    "p_keep": 0.7697165110417385,
+    "status": "KEEP"
+  },
+  {
+    "a": 99,
+    "b": 100,
+    "kind": "unknown",
+    "score": null,
+    "p_keep": 0.9719436202417091,
+    "status": "KEEP"
+  }
+]

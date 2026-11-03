@@ -1,0 +1,9 @@
+# Application architecture
+
+app.py creates Gradio and calls src/sbd_app/pipeline.py. src/sbd_app/config.py resolves ROOT from its file, supplies immutable model hashes/paths, size/time/frame limits and FFmpeg selection. No personal absolute path is needed. models/tinycut/decoder_frozen.json freezes TinyCut decoding. requirements-lock.txt pins the tested complete dependency set.
+
+Pipeline: validate upload -> probe PTS -> rational-CFR H.264 analysis video (up to 720 high, CRF18) -> 48x27 uint8 RGB verifier features -> selected CPU detector -> canonical raw proposals -> optional candidate verification -> frame-based shots -> timeline, middle-frame thumbnails and exports. Omni additionally decodes 128x96 pictures. Historical v1.5 uses original RGB only when regular CFR source-to-analysis mapping is proven; otherwise aligned normalized pictures are identified in provenance. Other detectors preserve the existing normalized path.
+
+SBD_CACHE defaults to .cache. Content-based keys cover input SHA, preprocessing, FFmpeg, checkpoint, sorted backend/third-party Python contents and relevant package versions. Python verification has additional bundle/module/settings identity and recomputes decisions. Changing verification can reuse detector predictions. Four inputs / 4 GiB / 24h bound the disk cache; requests serialize. UI-only app.py labels do not enter detector keys. Gradio temporary uploads expire separately.
+
+Exports live in hashed cache subdirectories: shots.csv/json, cuts.csv/json, raw_shots.json, metadata.json, provenance.json, shot_export.zip, timeline.png and thumbnails. timings.json is separate and reports measured nested wall/CPU stages. ZIP timestamps/timings are not deterministic. Frames are zero-based inclusive; displayed end timestamps are exclusive. Original Python scene conversion preserves gradual gaps. Native Omni input ranges are half-open. Inspect exported source/analysis mapping for VFR inputs.
