@@ -33,7 +33,9 @@ def validate():
             failures.append(f"Missing Python package {name}; run setup.bat")
     try:
         from sbd_app.verifier.sbdv2_adapter import SBDV2Verifier
-        report["verifier"] = dict(status="PASS", info=SBDV2Verifier().info,
+        verifier = SBDV2Verifier()
+        from native_health import check as native_check
+        report["verifier"] = dict(status="PASS", info=verifier.info, operation=native_check(verifier),
                                   dll_sha256=sha256(library_path()), cli_sha256=sha256(binary_path()))
     except Exception as exc:
         failures.append(str(exc))

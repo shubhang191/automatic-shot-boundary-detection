@@ -17,3 +17,21 @@ See README for supported configurations, MODELS.md for legal acquisition and exa
 ## Published-repository check
 
 After publication, a new anonymous Git clone from the public GitHub URL independently obtained the official Omni models and FFmpeg again, imported the explicit user-supplied AutoShot file, passed environment/model verification and Gradio startup, and ran **all eleven configurations** successfully. Scientific outputs match the pre-publication validated staging run, and all result ZIPs pass CRC with matching JSON shots. This final smoke reused the separately fresh-installed clean-clone dependency environment; it does not claim a third fresh package installation. Public accessibility, rendered README, both actual screenshot images and the published file tree were checked.
+
+## Final Windows source synchronization — 2026-11-04
+
+The finishing source changes are deployment diagnostics/build/packaging fixes only: fresh deterministic native output discovery (including GNU-style DLL names, never import libraries), Windows x64 checks and naming, explicit ZIP safety exceptions under optimized Python, and a deterministic DLL/CLI installation operation. Existing precompiled binaries, model/checkpoint bytes, original tests, inference modules and dependency pins are unchanged. The curated public allowlist is preserved; it declares required locally provisioned model/tool paths without publishing those files. Private faculty media and audit artifacts are excluded.
+
+Newly executed on the reviewed Git checkout using the prior audit's isolated Python 3.13.5 x64 environment (no new installation or second-machine claim):
+
+- Focused deployment tests: **21 passed**, 0 failed/errors/skipped.
+- Full regression suite: **113 passed** (92 original + 21 added), 0 failed/errors/skipped.
+- Installation diagnostics: **PASS**, including unchanged checkpoint hashes and deterministic native DLL/CLI agreement with compiler directories absent from PATH.
+- Optimized-Python negative safety checks: **22 rejected invalid cases**, including unsafe/reserved paths, case collisions, duplicate names/manifest keys, missing files, manifest tampering, symlinks, CRC corruption and output overwrite attempts. These checks used disposable fixtures; no faculty ZIP was generated or modified.
+- Licensed Sintel real inference: **all 11 supported configurations PASS**. Boundaries/intervals, timestamps, raw proposals, KEEP/DROP probabilities/decisions, native labels, rescues/snaps and model identities match the verified faculty baseline. Deterministic CSV/image exports are byte-identical and scientific JSON fields match; runtime timing fields are excluded. Equal shot counts alone are not used as parity evidence.
+
+The tested checkout was provisioned with checksum-matched local model/tool files that remain ignored and unpublished. This synchronization did not repeat external download acquisition, clean dependency installation or browser interaction. Earlier final-release evidence covers fresh extraction/setup, repeated setup, invalid-DLL rejection, paths with spaces, Gradio upload/export workflows and all 11 modes; its source identities were reconciled read-only against the unchanged archived/tested application. A prior Ninja + LLVM-MinGW x64 source build passed; actual GNU GCC x64 and MSVC builds were not performed. The shipped native binaries were not rebuilt or replaced.
+
+The expected test warnings are the intentional duplicate-ZIP fixture and upstream AutoShot indexing deprecation. No original test was changed or disabled. Local machine paths, logs and recordings remain private; this public summary records outcomes rather than uploading the audit directory.
+
+**INDEPENDENT_SECOND_PC_TEST: NOT TESTED.** Other Windows versions, GPU deployment and new manual visual inspection were not tested in this synchronization. The public source checkout is not the complete faculty archive: follow README and MODELS.md provisioning instructions. Historical benchmark scores are separate and unchanged. No automatic merge or claim of GitHub CI success is implied by these local results.

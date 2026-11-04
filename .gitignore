@@ -16,3 +16,13 @@ downloads/
 reports/local/
 dist/
 build/
+
+# Local installation products and safe-repair backups
+.venv*/
+venv/
+env/
+installation_logs/
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
