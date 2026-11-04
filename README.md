@@ -1,10 +1,12 @@
-> Windows portability repair: see [PORTABLE_WINDOWS_README.md](PORTABLE_WINDOWS_README.md). Never distribute a prebuilt .venv; setup now validates and repairs environments safely.
+> Windows portability repair: see [PORTABLE_WINDOWS_README.md](PORTABLE_WINDOWS_README.md) and the [final controlled fixes](CONTROLLED_PORTABILITY_NOTES.md). Never distribute a prebuilt .venv; setup validates and repairs environments safely.
 
 # Automatic Shot Boundary Detection
 
 A Windows CPU application for finding shot transitions in video, comparing raw detector proposals with learned verification, inspecting shot/keyframe tables, and exporting reproducible CSV/JSON diagnostics.
 
 **This is the final faculty application's implementation, with public-release packaging and documentation.** Its UI is titled **Automatic Shot Boundary Detection**. Omni v1.5 is labelled **52.8M (Newer Version)**; its Python option is **Python Verifier — Higher Accuracy, Slower**. The last label reflects historical apparent evaluation, not guaranteed superiority on new videos.
+
+**Public source and faculty archive:** this repository contains the reviewed implementation and public assets, not the complete academic submission ZIP. Large third-party checkpoints, FFmpeg binaries, private recordings and local audit data remain excluded. Follow the provisioning steps below before installation verification; cloning alone does not reproduce the complete faculty archive. The final deployment fixes add deterministic native-build discovery, ZIP safety checks that remain active under `python -O`, and a native DLL/CLI operation check. They preserve detector/verifier algorithms and model identities. See [validation scope](docs/VALIDATION.md); independent second-PC testing remains **NOT TESTED**.
 
 > **Read before installing:** the AutoShot pretrained checkpoint is not included or automatically downloaded. You must obtain the exact file from its original authors. The two Omni models are downloaded from their official immutable Hugging Face releases. Installation is not fully offline. See [model provisioning and rights](docs/MODELS.md).
 
